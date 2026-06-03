@@ -1,1 +1,12 @@
  os.environ["OPENAI_API_KEY"] = "your OpenAI API key"  -line 24
+
+#Required installations
+pip install langchain-openai==0.3.10 | tail -n 1
+pip install langchain==0.3.21 | tail -n 1
+pip install openai==1.68.2 | tail -n 1
+pip install pandas==2.2.3 | tail -n 1
+pip install numpy==2.2.4 | tail -n 1
+pip install matplotlib==3.10.1 | tail -n 1
+pip install seaborn==0.13.2 | tail -n 1
+pip install scikit-learn==1.6.1 | tail -n 1
+
